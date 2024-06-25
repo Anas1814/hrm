@@ -1,0 +1,99 @@
+.sidebar_menu{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    width: 280px;
+    height: 100vh;
+    border-top-right-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    align-items: center;
+    position: absolute;
+    top: 0px;
+}
+.sidebar_items{
+    border: none;
+    column-gap: 2rem;
+}
+.sidebar_item{
+    font-size: small;
+    width: 270px;
+    height: 40px;
+    border: 1px solid black;
+    border: none;
+    column-gap: 4rem;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    
+    margin-right: 10px;
+    transition: all 0.3s ease;
+}
+.sidebar_item:hover{
+    background-image: linear-gradient( to right, orange,yellow);
+    cursor: pointer;
+}
+a:hover{
+    color: white;
+}
+
+.search{
+    outline: none;
+    width: 200px;
+    margin-left: 35px;
+    padding: 1rem 1.5rem;
+    position: relative;
+    margin-bottom: 1rem;
+}
+.icon{
+    z-index: 1;
+    margin-right: 15px;
+    font-size: 20px;
+
+}
+.search_icon{
+    font-size: 22px;
+    color: grey;
+    z-index: 1;
+    position: absolute;
+    left: 28px;
+    top: 85px;
+}
+ul{
+    list-style: none;
+}
+ul a{
+    text-decoration: none;
+    
+    color: grey;
+    padding: 10px 15px 25px 25px;
+}
+ul input{
+    border: none;
+    width: 240px;
+    height: 40px;
+    margin-left: 10px;
+    border-bottom: 1px solid lightgrey;
+}
+
+h3{
+    color: grey;
+    padding: 20px 10px 0px 0px;
+    margin-top: 10px;
+    margin-bottom: 1.5rem;
+}
+span{
+    color: green;
+}
+.btn{
+    position: relative;
+    bottom: 380px;
+    width: 20px;
+    height: 20px;
+    margin-left: 280px;
+    border-radius: 50%;
+    border: none;
+    outline: none;
+    background-color: orange;
+    color: white;
+    
+}
